@@ -1,7 +1,9 @@
 Django Registration Redux
+
 Install package
 
 pip install django-registration-redux
+
 Add to installed apps
 
 INSTALLED_APPS = (
@@ -12,8 +14,11 @@ INSTALLED_APPS = (
 Set login url after AUTHENTICATION_BACKENDS
 
 ACCOUNT_ACTIVATION_DAYS = 7
+
 REGISTRATION_AUTO_LOGIN = True
+
 SEND_ACTIVATION_EMAIL = True
+
 REGISTRATION_EMAIL_SUBJECT_PREFIX = ''
 
 REGISTRATION_OPEN = True
