@@ -6,6 +6,14 @@ Install package
 pip install django-registration-redux
 
 
+Install python-decouple:
+
+pip install python-decouple
+
+
+from decouple import config
+
+
 Add to installed apps
 
 INSTALLED_APPS = (
